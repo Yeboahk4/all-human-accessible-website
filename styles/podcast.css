@@ -381,7 +381,81 @@ body {
     border-radius: 50%;
     font-size: 18px;
 }
+/*===== FORMULIEREN CSS =====*/
 
+.hvana-signup {
+    background-color: #0050ff;
+    padding: 60px 80px;
+    color: #fff;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.signup-social {
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 15px;
+    }
+
+    a {
+        color: #fff;
+        font-size: 28px;
+        transition: opacity 0.2s ease;
+    }
+    & a:hover {
+        opacity: 0.7;
+    }
+}
+.signup-form {
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        margin: 0 0 15px 0;
+        font-size: 16px;
+    }
+    form {
+        display: flex;
+        gap: 10px;
+    }
+    input {
+        padding: 12px;
+        border-radius: 6px;
+        border: none;
+        font-size: 16px;
+    }
+    button {
+        padding: 12px 24px;
+        background-color: #FED200;
+        border: none;
+        border-radius: 6px;
+        font-weight: 900;
+        cursor: pointer;
+        transition: background 0.3 ease;
+    }
+    & button:hover {
+        background-color: #e5c000;
+    }
+}
 /*===== FOOTER CSS =====*/
 
 .hvana-footer {

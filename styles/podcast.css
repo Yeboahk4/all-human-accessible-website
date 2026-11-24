@@ -396,6 +396,10 @@ body {
     gap: 40px;
     margin: 0 auto;
     max-width: 900px;
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .signup-social {
@@ -454,6 +458,11 @@ body {
     }
     & button:hover {
         background-color: #e5c000;
+    }
+    @media (min-width: 768px) {
+        h3, p {
+            text-align: left;
+        }
     }
 }
 /*===== FOOTER CSS =====*/

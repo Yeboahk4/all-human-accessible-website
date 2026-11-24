@@ -50,7 +50,7 @@ body {
 }
 .topsection_header.scrolled a, .topsection_header.scrolled i {
   color: #FED200;
-  /* text-shadow: none; */
+  text-shadow: none;
 }
 
 .main_navbar {
@@ -70,7 +70,7 @@ body {
             font-weight: 800;
             position: relative;
             padding-bottom: 4px;
-            /* text-shadow: 1px 1px #000; */
+            text-shadow: 1px 1px #000;
         }
 
         & li a:hover {
@@ -84,7 +84,7 @@ body {
     font-size: 28px;
     color: #fff;
     text-decoration: none;
-    /* text-shadow: 1px 1px #000; */
+    text-shadow: 1px 1px #000;
 
     @media (min-width: 768px) {
         font-size: 32px;
@@ -105,7 +105,7 @@ body {
             font-size: 24px;
             color: #fff;
             transition: color 0.2 ease;
-            /* text-shadow: 1px 1px #000; */
+            text-shadow: 1px 1px #000;
         }
         & i:hover {
             color: #46494a;
@@ -211,14 +211,14 @@ body {
         font-family: 'Playfair Display', serif;
         font-size: 60px;
         color: #fff;
-        /* text-shadow: 1px 1px #000; */
+        text-shadow: 1px 1px #000;
     }
 
     p {
         font-size: 18px;
         color: #fff;
         margin-top: 10px;
-        /* text-shadow: 1px 1px #000; */
+        text-shadow: 1px 1px #000;
     }
 
     .cta {
